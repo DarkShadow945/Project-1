@@ -540,3 +540,13 @@ body {
         font-size: 0.8rem;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+    .parallax-bg, .parallax-layer-1, .parallax-layer-2, .platform-card {
+        transform: none !important;
+    }
+}
