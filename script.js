@@ -313,3 +313,12 @@ function setupSmoothScrolling() {
         });
     });
 }
+
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func(...args), wait);
+    };
+}
+// Then wrap the click listener: button.addEventListener('click', debounce(() => { /* filter logic */ }, 300));
