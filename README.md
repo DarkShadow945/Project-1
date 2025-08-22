@@ -32,20 +32,20 @@ Alternatively, open index.html directly in a browser (note: some features may re
 
 
 
-Usage
+## Usage
 
 Explore Platforms: Scroll to the "Trusted Earning Platforms" section and use the filter buttons to view platforms by category.
 Interact with Cards: Hover over platform cards to see 3D tilt effects and click "Visit" links to access external platform websites.
 Responsive Experience: Test the site on different devices to experience the responsive layout and animations.
 
-Technologies Used
+## Technologies Used
 
 HTML5: Semantic structure for accessibility and SEO.
 CSS3: Advanced features like CSS Grid, 3D transforms, backdrop-filter, and keyframe animations.
 JavaScript (Vanilla): Handles dynamic rendering, filtering, parallax scrolling, and IntersectionObserver-based animations.
 No External Dependencies: Purely vanilla implementation for lightweight performance.
 
-Potential Improvements
+## Potential Improvements
 
 Accessibility:
 Add ARIA attributes (e.g., aria-pressed for filter buttons, role="tablist" for filters).
@@ -72,13 +72,13 @@ Implement structured data (e.g., JSON-LD for reviews) to enhance search engine v
 
 Touch Support: Replace mousemove tilt effects with touch-friendly interactions for mobile users.
 
-Known Issues
+## Known Issues
 
 The 3D tilt effect on platform cards (mousemove) is not active on touch devices. A touch-based alternative (e.g., tap-to-highlight) is recommended.
 Heavy animations and backdrop-filter may cause performance issues on low-end devices. Consider fallbacks or reduced effects.
 Some text elements (e.g., .stat-label) may have low contrast, requiring adjustment for accessibility.
 
-Contributing
+## Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository.
@@ -87,7 +87,7 @@ Commit your changes (git commit -m 'Add feature').
 Push to the branch (git push origin feature-name).
 Open a pull request with a detailed description of your changes.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
+## Contact
 For questions or feedback, please contact your-email@example.com.```
